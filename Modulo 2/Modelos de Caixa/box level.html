@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <!--Quando você inspeciona o site, abre o DEVTOOLS que é uma ferramenta do navegador que pode ajudar na medição das coisas para obter o resultado desejado-->
+    <style>
+        h1 {
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+            
+            border-width: 10px;
+            border-style: solid;
+            border-color: darkblue;
+
+            /*border: 10px solid darkblue; Essa linha é um exemplo de shorthand que é quando resumimos as principais funções, em ordem predeterminada, do style. Nesse caso o width, style e color */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+            /*padding: 10px 10px 10px 10px; Esse caso também um shorthand do padding. O padding segue uma ordem horária de relógio começando pelo top (cima)*/
+
+            /*margin: auto; É a tag para centralizar caixas*/
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+        }
+
+        a {
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+        /*Dá pra mudar o padrão das tags, se forem block, dá pra deixar inline e vice-versa. Usa-se o display.*/
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+</body>
+</html>

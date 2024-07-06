@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <!--safe combinations são combinações de uns 3 nomes na fonte onde o objetivo é fazer com que o dispositivo tem opções de fonte para escolher caso a primeira opção não exista. Exemplo abaixo.-->
+    <style> 
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            /* 
+            Medidas absolutas
+            cm (centimetro), mm (milimetro), in (polegada), px (pixels), pt (ponto), pc
+
+            Medidas relativas
+            em (tamanho da letra normalmente, trabalha-se com porcentagem do tamanho padrão. É mais indicado usar em), ex, rem, vw, vh, %
+            */
+            font-size: 1em;
+            font-weight: bold; /* Essa font é responsável pelo peso da fonte, os principais valores aceito são: lighter, normal, bold, bolder / Você pode usar também números no lugar dos nomes de 100-900 é o intervalo*/
+            font-style: italic;
+            
+            text-decoration: underline; /*Comando para dar o sublinhado*/
+            /*Precisa ficar atento as seguintes palavras: weigth (peso), width (largura), height (altura)*/
+        }
+        h1 {
+            /*Shorthand font: Existe uma forma de resumir todos os 4 comandos (menos o  text) acima em apenas 1 na seguinte ordem:
+            font: italic bolder 1em 'work Sans, sans-serif*/
+            font: italic bolder 5em 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur sit, quis sed quas in est, quos doloribus recusandae deleniti culpa harum? Hic veritatis exercitationem aperiam voluptatibus! Ea ipsa fugit in? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus blanditiis magni laborum facilis officiis iusto inventore ipsa minima odio praesentium sint dolor ullam corporis labore, ab temporibus neque atque veniam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta necessitatibus, in commodi vel ex aspernatur nulla deserunt voluptatibus tempora, veniam iste maxime beatae expedita minus eius. Cum rem eligendi iste.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae unde cupiditate dolores commodi quo voluptates? Quidem sapiente voluptatum, dolor nostrum sequi ex explicabo facilis, illum libero veniam impedit, eos soluta?</p>
+</body>
+</html>

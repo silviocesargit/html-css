@@ -1,0 +1,8 @@
+<!--
+Algumas observações sobre formatos de imagem: 
+O jpg é o melhor formato de arquivo de imagem, pois permite uma ótima compactação e qualidade de imagem. É uma imagem grande.
+O png veio para substituir o gif. Ambos não possuem ótima qualidade de imagem. O gif tem as vatagens de poder se tornar transparente, para fundos, e também pode ser animado, já o png não consegue ser animado, mas consegue ser transparente.
+É necessário tomar cuidado com o tamanho do arquivo de imagem ao colocar no site, pois a depender do tamanho, torna-se difícil fazer o carregamento da mesma ao acessar o site.
+
+O gimp é uma ferramenta gratuita ótima pra auxiliar no redimencionamento resolução de imagens.
+-->

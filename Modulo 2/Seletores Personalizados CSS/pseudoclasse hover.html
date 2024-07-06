@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <!--A pseudo classe HOVER serve para fazer uma alteração no texto quando se passa o mouse por cima-->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        /*O simbolo de maior (>) seguido de uma tag no style e com outra tag após, quer dizer que a tag seguinte é 'filha' da tag anterior. Há uma hierarquia.*/
+        div > p {
+            display: none;
+        }
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: red;
+            width: 300px;
+        }
+        /*O HOVER pode ser encontrado como exemplo em menus de sites que mostram novas opções quando se passa o mouse por cima*/
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Passe o mouse sobre o texto abaixo</p>
+    <div>
+        Passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <P>Fim do exemplo</P>
+</body>
+</html>
