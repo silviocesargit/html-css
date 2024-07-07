@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: black;
+            background-image: url(imagens/wallpaper002.jpg);
+            background-position: center top;
+            background-repeat: no-repeat; /*Essa tag serve para não repetir a imagem na view port*/
+            background-size: cover; /*É a melhor tag para mostrar a imagem ocupando 100% da view port. Mesmo que haja alguns cortes em partes da imagem.
+            Existe também o (contain): Ele é bom quando se quer mostrar 100% da imagem, mesmo que ela não preencha completamente a view port.*/
+            background-attachment: fixed; /*Essa tag serve para fixa a imagem enquanto o usuário rola o texto.*/
+
+            /*
+            Segue a ordem correta da Shorthand para os códigos realizados acima:
+
+            Shorthand - background
+            color > image > position > repeat > [size] > attachment  -- Observação para o size, que pode não funcionar
+
+            EXEMPLO --> background: black url(imagens/wallpaper001.jpg) center center no-repeat cover fixed;
+            */
+        }
+
+        main {
+            background-color: white;
+            max-width: 400px; /*O max-width é uma tag importantissima para a responsividade do texto!!!!*/
+            padding: 10px;
+            margin: auto;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de Imagem de fundo</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero similique excepturi dolore deleniti. Maiores, beatae magni sed earum dolor architecto cupiditate soluta fugiat, minus a atque, asperiores sunt iusto eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur non et, temporibus amet voluptas accusantium nemo placeat ratione corrupti illo labore velit a porro tempore omnis, hic aspernatur. Molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus dolorem unde odit a vel alias dolorum aspernatur soluta eveniet? Voluptatibus sapiente ea iure quasi totam possimus a voluptatum quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero similique excepturi dolore deleniti. Maiores, beatae magni sed earum dolor architecto cupiditate soluta fugiat, minus a atque, asperiores sunt iusto eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur non et, temporibus amet voluptas accusantium nemo placeat ratione corrupti illo labore velit a porro tempore omnis, hic aspernatur. Molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus dolorem unde odit a vel alias dolorum aspernatur soluta eveniet? Voluptatibus sapiente ea iure quasi totam possimus a voluptatum quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero similique excepturi dolore deleniti. Maiores, beatae magni sed earum dolor architecto cupiditate soluta fugiat, minus a atque, asperiores sunt iusto eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur non et, temporibus amet voluptas accusantium nemo placeat ratione corrupti illo labore velit a porro tempore omnis, hic aspernatur. Molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus dolorem unde odit a vel alias dolorum aspernatur soluta eveniet? Voluptatibus sapiente ea iure quasi totam possimus a voluptatum quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero similique excepturi dolore deleniti. Maiores, beatae magni sed earum dolor architecto cupiditate soluta fugiat, minus a atque, asperiores sunt iusto eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur non et, temporibus amet voluptas accusantium nemo placeat ratione corrupti illo labore velit a porro tempore omnis, hic aspernatur. Molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus dolorem unde odit a vel alias dolorum aspernatur soluta eveniet? Voluptatibus sapiente ea iure quasi totam possimus a voluptatum quis.
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero similique excepturi dolore deleniti. Maiores, beatae magni sed earum dolor architecto cupiditate soluta fugiat, minus a atque, asperiores sunt iusto eius! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur non et, temporibus amet voluptas accusantium nemo placeat ratione corrupti illo labore velit a porro tempore omnis, hic aspernatur. Molestiae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatibus dolorem unde odit a vel alias dolorum aspernatur soluta eveniet? Voluptatibus sapiente ea iure quasi totam possimus a voluptatum quis.
+        </p>
+    </main>
+</body>
+</html>
