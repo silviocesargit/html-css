@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+header p {
+    color: white;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    font-family: verdana extrabold;
+}
+
+main p {
+    font-family: "sriracha";
+}
+
+.fundodetexto {
+    color: white;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.233);
+    background-position: left center;
+}
+
+#imagem1 {
+    background-image: url(imagens/background001.jpg);
+}
+
+#imagem2 {
+    background-image: url(imagens/background002.jpg);
+}
